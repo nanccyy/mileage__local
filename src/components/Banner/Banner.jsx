@@ -115,7 +115,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
       <Slider changeLink={changeLink} activePointIndex={activePointIndex} />
     </>
   );
-};
+}
 
 export default Banner;
 Banner.propTypes = {

@@ -34,7 +34,7 @@ const Header = ({ isBanner, isSmallScreen, scrolled }) => {
       </header>
     </>
   )
-};
+}
 
 export default Header;
 
