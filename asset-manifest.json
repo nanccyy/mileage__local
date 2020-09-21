@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mileage/static/css/main.92d8ce40.chunk.css",
-    "main.js": "/mileage/static/js/main.bee4c152.chunk.js",
-    "main.js.map": "/mileage/static/js/main.bee4c152.chunk.js.map",
-    "runtime-main.js": "/mileage/static/js/runtime-main.bdc72863.js",
-    "runtime-main.js.map": "/mileage/static/js/runtime-main.bdc72863.js.map",
-    "static/js/2.66687e9b.chunk.js": "/mileage/static/js/2.66687e9b.chunk.js",
-    "static/js/2.66687e9b.chunk.js.map": "/mileage/static/js/2.66687e9b.chunk.js.map",
-    "index.html": "/mileage/index.html",
-    "precache-manifest.986774474b3c64ff363eff4ab9954199.js": "/mileage/precache-manifest.986774474b3c64ff363eff4ab9954199.js",
-    "service-worker.js": "/mileage/service-worker.js",
-    "static/css/main.92d8ce40.chunk.css.map": "/mileage/static/css/main.92d8ce40.chunk.css.map",
-    "static/js/2.66687e9b.chunk.js.LICENSE.txt": "/mileage/static/js/2.66687e9b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/mileage/static/media/Gilroy-SemiBold.05bdf30b.ttf",
-    "static/media/Slider.scss": "/mileage/static/media/point_green_border.14f8129e.svg",
-    "static/media/Logo.scss": "/mileage/static/media/logo.a5cdea8a.svg"
+    "main.css": "/mileage__local/static/css/main.f1d42c07.chunk.css",
+    "main.js": "/mileage__local/static/js/main.bee4c152.chunk.js",
+    "main.js.map": "/mileage__local/static/js/main.bee4c152.chunk.js.map",
+    "runtime-main.js": "/mileage__local/static/js/runtime-main.9523e9e1.js",
+    "runtime-main.js.map": "/mileage__local/static/js/runtime-main.9523e9e1.js.map",
+    "static/js/2.612b117e.chunk.js": "/mileage__local/static/js/2.612b117e.chunk.js",
+    "static/js/2.612b117e.chunk.js.map": "/mileage__local/static/js/2.612b117e.chunk.js.map",
+    "index.html": "/mileage__local/index.html",
+    "precache-manifest.ddaa57d37528c6a42c84d8743c37915d.js": "/mileage__local/precache-manifest.ddaa57d37528c6a42c84d8743c37915d.js",
+    "service-worker.js": "/mileage__local/service-worker.js",
+    "static/css/main.f1d42c07.chunk.css.map": "/mileage__local/static/css/main.f1d42c07.chunk.css.map",
+    "static/js/2.612b117e.chunk.js.LICENSE.txt": "/mileage__local/static/js/2.612b117e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mileage__local/static/media/Gilroy-SemiBold.05bdf30b.ttf",
+    "static/media/Slider.scss": "/mileage__local/static/media/point_green_border.14f8129e.svg",
+    "static/media/Logo.scss": "/mileage__local/static/media/logo.a5cdea8a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdc72863.js",
-    "static/js/2.66687e9b.chunk.js",
-    "static/css/main.92d8ce40.chunk.css",
+    "static/js/runtime-main.9523e9e1.js",
+    "static/js/2.612b117e.chunk.js",
+    "static/css/main.f1d42c07.chunk.css",
     "static/js/main.bee4c152.chunk.js"
   ]
 }
