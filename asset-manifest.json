@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/mileage/static/css/main.2b4280bb.chunk.css",
+    "main.js": "/mileage/static/js/main.7a03bfd8.chunk.js",
+    "main.js.map": "/mileage/static/js/main.7a03bfd8.chunk.js.map",
+    "runtime-main.js": "/mileage/static/js/runtime-main.bdc72863.js",
+    "runtime-main.js.map": "/mileage/static/js/runtime-main.bdc72863.js.map",
+    "static/js/2.3dacdc39.chunk.js": "/mileage/static/js/2.3dacdc39.chunk.js",
+    "static/js/2.3dacdc39.chunk.js.map": "/mileage/static/js/2.3dacdc39.chunk.js.map",
+    "index.html": "/mileage/index.html",
+    "precache-manifest.a78f9bc7c71396bf753099a767f8b1c1.js": "/mileage/precache-manifest.a78f9bc7c71396bf753099a767f8b1c1.js",
+    "service-worker.js": "/mileage/service-worker.js",
+    "static/css/main.2b4280bb.chunk.css.map": "/mileage/static/css/main.2b4280bb.chunk.css.map",
+    "static/js/2.3dacdc39.chunk.js.LICENSE.txt": "/mileage/static/js/2.3dacdc39.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/mileage/static/media/Gilroy-SemiBold.05bdf30b.ttf",
+    "static/media/Team.scss": "/mileage/static/media/arrow_active.cdce98e1.svg",
+    "static/media/Slider.scss": "/mileage/static/media/point_green_border.14f8129e.svg",
+    "static/media/Services.scss": "/mileage/static/media/services_dot_active.81ca160b.svg",
+    "static/media/image.jpg": "/mileage/static/media/image.b603ad8e.jpg",
+    "static/media/image1.jpg": "/mileage/static/media/image1.9f2dcbe5.jpg",
+    "static/media/image2.jpg": "/mileage/static/media/image2.d30290e3.jpg",
+    "static/media/image3.jpg": "/mileage/static/media/image3.eef9037d.jpg",
+    "static/media/image4.jpg": "/mileage/static/media/image4.e41d2c86.jpg",
+    "static/media/image5.jpg": "/mileage/static/media/image5.7dd4e4e2.jpg",
+    "static/media/Logo.scss": "/mileage/static/media/logo.a5cdea8a.svg",
+    "static/media/services1.svg": "/mileage/static/media/services1.fd912244.svg",
+    "static/media/services_img_reversed.svg": "/mileage/static/media/services_img_reversed.f5ff110d.svg",
+    "static/media/video1.mp4": "/mileage/static/media/video1.4aa0a9b9.mp4",
+    "static/media/video2.mp4": "/mileage/static/media/video2.7f03ee2b.mp4",
+    "static/media/video3.mp4": "/mileage/static/media/video3.5957d4d2.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdc72863.js",
+    "static/js/2.3dacdc39.chunk.js",
+    "static/css/main.2b4280bb.chunk.css",
+    "static/js/main.7a03bfd8.chunk.js"
+  ]
+}
