@@ -3,6 +3,7 @@ import './Header.scss';
 import Navbar from '../Navbar/Navbar';
 import Logo from '../Logo/Logo';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 const Header = ({ isBanner, isSmallScreen, scrolled }) => {
   const [isDarkFont, setFontDark] = useState(false);
@@ -36,3 +37,9 @@ const Header = ({ isBanner, isSmallScreen, scrolled }) => {
 };
 
 export default Header;
+
+Header.propTypes = {
+  isBanner: PropTypes.bool.isRequired,
+  isSmallScreen: PropTypes.bool.isRequired,
+  scrolled: PropTypes.bool.isRequired,
+}

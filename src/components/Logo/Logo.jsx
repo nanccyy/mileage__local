@@ -1,7 +1,7 @@
 import React from 'react';
 import './Logo.scss';
 import classnames from 'classnames';
-
+import PropTypes from 'prop-types';
 
 const Logo = ({ isDarkFont, open }) => {
   return (
@@ -27,3 +27,9 @@ const Logo = ({ isDarkFont, open }) => {
 }
 
 export default Logo;
+
+Logo.propTypes = {
+  isDarkFont: PropTypes.bool.isRequired,
+  open: PropTypes.bool.isRequired
+}
+

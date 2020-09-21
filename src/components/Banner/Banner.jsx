@@ -4,9 +4,11 @@ import { useIntersection } from 'react-use';
 import './Banner.scss';
 import YouTube from 'react-youtube';
 import { Slider } from '../Slider/Slider';
+import PropTypes from 'prop-types';
 
 import { gsap, ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
+ const list = ['W0LHTWG-UmQ', '_JUmf9GIBKQ', '79zkUWY31P4'];
 
 const Banner = ({ setIsBanner, isBanner }) => {
   const [linkName, setLinkName] = useState('W0LHTWG-UmQ');
@@ -29,7 +31,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
   }, [intersection])
 
   const changeLink = (event) => {
-    const list = ['W0LHTWG-UmQ', 'RQApcf6IAKY', 'sBWPCvdv8Bk'];
+   
     const index = list.indexOf(linkName);
 
     const buttonName = event.target.name;
@@ -84,7 +86,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
             banner__critical_disappear: videoisLoaded,
           })}
           ></div>
-          {linkName === 'W0LHTWG-UmQ' && isBanner &&
+          {linkName === list[0] && isBanner &&
             <YouTube
               videoId={linkName}
               opts={opts}
@@ -92,7 +94,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
             >
             </YouTube>
           }
-          {linkName === 'RQApcf6IAKY' && isBanner &&
+          {linkName === list[1] && isBanner &&
             <YouTube
               videoId={linkName}
               opts={opts}
@@ -100,7 +102,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
             >
             </YouTube>
           }
-          {linkName === 'sBWPCvdv8Bk' && isBanner &&
+          {linkName === list[2] && isBanner &&
             <YouTube
               videoId={linkName}
               opts={opts}
@@ -116,3 +118,7 @@ const Banner = ({ setIsBanner, isBanner }) => {
 };
 
 export default Banner;
+Banner.propTypes = {
+  setIsBanner: PropTypes.func.isRequired
+}
+

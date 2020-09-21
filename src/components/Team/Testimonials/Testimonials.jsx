@@ -1,5 +1,6 @@
 import React from 'react';
 import './Testimonials.scss';
+import PropTypes from 'prop-types';
 
 export const Testimonials = ({ main, testimonials }) => {
 
@@ -30,4 +31,11 @@ export const Testimonials = ({ main, testimonials }) => {
       </ul>
     </article>
   );
-}
+};
+
+Testimonials.propTypes = {
+  testimonials: PropTypes.arrayOf(
+    PropTypes.object.isRequired
+    ).isRequired,
+  main: PropTypes.number.isRequired
+};

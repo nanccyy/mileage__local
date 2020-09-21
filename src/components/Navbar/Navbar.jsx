@@ -99,5 +99,7 @@ function Navbar({ isDarkFont, open, setOpen }) {
 export default Navbar;
 
 Navbar.propTypes = {
-  isDarkFont: PropTypes.bool.isRequired
+  isDarkFont: PropTypes.bool.isRequired,
+  open: PropTypes.bool.isRequired,
+  setOpen: PropTypes.func.isRequired
 }

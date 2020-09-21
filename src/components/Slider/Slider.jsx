@@ -4,6 +4,7 @@ import './Slider.scss';
 import classNames from 'classnames';
 import { gsap, MotionPathPlugin, TimelineLite, Power3 } from "gsap/all";
 import { TweenMax } from 'gsap/all';
+import PropTypes from 'prop-types';
 
 gsap.registerPlugin(MotionPathPlugin);
 
@@ -86,4 +87,9 @@ export const Slider = ({ changeLink, activePointIndex }) => {
       </div>
     </>
   )
+};
+
+Slider.propTypes = {
+  activePointIndex: PropTypes.number.isRequired,
+  changeLink: PropTypes.func.isRequired
 }

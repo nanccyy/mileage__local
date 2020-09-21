@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import './Gallery.scss';
+import PropTypes from 'prop-types';
 
 export const Gallery = ({ testimonials, main, shadow1, shadow2 }) => {
   return (
@@ -21,5 +22,14 @@ export const Gallery = ({ testimonials, main, shadow1, shadow2 }) => {
       )}
     </div>
   );
+};
+
+Gallery.propTypes = {
+  testimonials: PropTypes.arrayOf(
+    PropTypes.object.isRequired
+    ).isRequired,
+  main: PropTypes.number.isRequired,
+  shadow1: PropTypes.number.isRequired,
+  shadow2: PropTypes.number.isRequired
 }
 

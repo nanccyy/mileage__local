@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Footer.scss';
 import { useIntersection } from 'react-use';
+import PropTypes from 'prop-types';
 
 export const Footer = ({ setIsFooter }) => {
   const sectionRef = useRef(null);
@@ -62,4 +63,8 @@ export const Footer = ({ setIsFooter }) => {
       <p className="footer__text">© UpQode 2019. All Right Reserved.</p>
     </footer>
   )
+}
+
+Footer.propTypes = {
+  setIsFooter: PropTypes.func.isRequired
 }
