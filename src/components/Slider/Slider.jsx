@@ -60,7 +60,7 @@ export const Slider = ({
             slider__point_active: activePointIndex === 1
           })}>
           <button
-            name="0"
+            name="1"
             className={classNames({
               active: activePointIndex === 1
             })}
@@ -78,7 +78,7 @@ export const Slider = ({
 
         >
           <button
-            name="1"
+            name="2"
             className={classNames({
               active: activePointIndex === 2
             })}
@@ -95,7 +95,7 @@ export const Slider = ({
           })}
         >
           <button
-            name="2"
+            name="3"
             className={classNames({
               active: activePointIndex === 3
             })}
