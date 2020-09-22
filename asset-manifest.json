@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mileage__local/static/css/main.882e9525.chunk.css",
-    "main.js": "/mileage__local/static/js/main.cd866a6f.chunk.js",
-    "main.js.map": "/mileage__local/static/js/main.cd866a6f.chunk.js.map",
+    "main.css": "/mileage__local/static/css/main.aca70251.chunk.css",
+    "main.js": "/mileage__local/static/js/main.30ca0e63.chunk.js",
+    "main.js.map": "/mileage__local/static/js/main.30ca0e63.chunk.js.map",
     "runtime-main.js": "/mileage__local/static/js/runtime-main.9523e9e1.js",
     "runtime-main.js.map": "/mileage__local/static/js/runtime-main.9523e9e1.js.map",
     "static/js/2.3dacdc39.chunk.js": "/mileage__local/static/js/2.3dacdc39.chunk.js",
     "static/js/2.3dacdc39.chunk.js.map": "/mileage__local/static/js/2.3dacdc39.chunk.js.map",
     "index.html": "/mileage__local/index.html",
-    "precache-manifest.59b4b3f0409122b8899b5d98462ac678.js": "/mileage__local/precache-manifest.59b4b3f0409122b8899b5d98462ac678.js",
+    "precache-manifest.06b2b93cf8979685a98a2ce6db4d16b3.js": "/mileage__local/precache-manifest.06b2b93cf8979685a98a2ce6db4d16b3.js",
     "service-worker.js": "/mileage__local/service-worker.js",
-    "static/css/main.882e9525.chunk.css.map": "/mileage__local/static/css/main.882e9525.chunk.css.map",
+    "static/css/main.aca70251.chunk.css.map": "/mileage__local/static/css/main.aca70251.chunk.css.map",
     "static/js/2.3dacdc39.chunk.js.LICENSE.txt": "/mileage__local/static/js/2.3dacdc39.chunk.js.LICENSE.txt",
     "static/media/index.css": "/mileage__local/static/media/Gilroy-SemiBold.05bdf30b.ttf",
     "static/media/Team.scss": "/mileage__local/static/media/arrow_active.cdce98e1.svg",
@@ -27,12 +27,12 @@
     "static/media/services_img_reversed.svg": "/mileage__local/static/media/services_img_reversed.f5ff110d.svg",
     "static/media/video1.mp4": "/mileage__local/static/media/video1.4aa0a9b9.mp4",
     "static/media/video2.mp4": "/mileage__local/static/media/video2.7f03ee2b.mp4",
-    "static/media/video3.mp4": "/mileage__local/static/media/video3.5957d4d2.mp4"
+    "static/media/video3.mp4": "/mileage__local/static/media/video3.00c9d32c.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.9523e9e1.js",
     "static/js/2.3dacdc39.chunk.js",
-    "static/css/main.882e9525.chunk.css",
-    "static/js/main.cd866a6f.chunk.js"
+    "static/css/main.aca70251.chunk.css",
+    "static/js/main.30ca0e63.chunk.js"
   ]
 }
