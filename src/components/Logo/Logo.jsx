@@ -32,3 +32,4 @@ Logo.propTypes = {
   isDarkFont: PropTypes.bool.isRequired,
   open: PropTypes.bool.isRequired
 }
+

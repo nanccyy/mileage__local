@@ -8,7 +8,11 @@ import PropTypes from 'prop-types';
 
 gsap.registerPlugin(MotionPathPlugin);
 
-export const Slider = ({ changeLink, activePointIndex }) => {
+export const Slider = ({
+  changeLink,
+  activePointIndex,
+  setActivePointIndex,
+}) => {
   let app = useRef(null);
   let heading = useRef(null);
   let points = useRef(null);
@@ -22,7 +26,11 @@ export const Slider = ({ changeLink, activePointIndex }) => {
         .from(points, 1.2, { y: -100, ease: Power3.easeOut }, 0.5)
         .from(points, 2, { scale: 0.6, ease: Power3.easeOut }, 0.5);
     }
-  }, [])
+  }, []);
+
+  const changeVideoWithPointButtons = (number) => {
+    setActivePointIndex(+number);
+  }
 
   return (
     <>
@@ -51,25 +59,34 @@ export const Slider = ({ changeLink, activePointIndex }) => {
             slider__point: true,
             slider__point_active: activePointIndex === 1
           })}>
-          <div
+          <button
+            name="0"
             className={classNames({
               active: activePointIndex === 1
             })}
+            onClick={(event) => {
+              changeVideoWithPointButtons(event.target.name)
+            }}
           >
-          </div>
+          </button>
         </div>
         <div
           className={classNames({
             slider__point: true,
             slider__point_active: activePointIndex === 2
           })}
+
         >
-          <div
+          <button
+            name="1"
             className={classNames({
               active: activePointIndex === 2
             })}
+            onClick={(event) => {
+              changeVideoWithPointButtons(event.target.name)
+            }}
           >
-          </div>
+          </button>
         </div>
         <div
           className={classNames({
@@ -77,19 +94,24 @@ export const Slider = ({ changeLink, activePointIndex }) => {
             slider__point_active: activePointIndex === 3
           })}
         >
-          <div
+          <button
+            name="2"
             className={classNames({
               active: activePointIndex === 3
             })}
+            onClick={(event) => {
+              changeVideoWithPointButtons(event.target.name)
+            }}
           >
-          </div>
+          </button>
         </div>
       </div>
     </>
   )
-}
+};
 
 Slider.propTypes = {
   activePointIndex: PropTypes.number.isRequired,
-  changeLink: PropTypes.func.isRequired
+  changeLink: PropTypes.func.isRequired,
+  setActivePointIndex: PropTypes.func.isRequired,
 }

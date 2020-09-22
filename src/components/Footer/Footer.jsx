@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Footer.scss';
 import { useIntersection } from 'react-use';
-import Proptypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export const Footer = ({ setIsFooter }) => {
   const sectionRef = useRef(null);
@@ -66,5 +66,5 @@ export const Footer = ({ setIsFooter }) => {
 }
 
 Footer.propTypes = {
-  setIsFooter: Proptypes.func.isRequired
+  setIsFooter: PropTypes.func.isRequired
 }

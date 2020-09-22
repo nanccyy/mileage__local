@@ -23,6 +23,7 @@
     color: inherit;
     transition: all 0.5s linear;
     position: relative;
+    text-transform: capitalize;
 
     &:before {
       content: "";

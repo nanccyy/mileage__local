@@ -3,11 +3,11 @@ import classNames from 'classnames';
 import './Gallery.scss';
 import PropTypes from 'prop-types';
 
-export const Gallery = ({ testimonials, main, shadow1, shadow2, isBanner }) => {
+export const Gallery = ({ testimonials, main, shadow1, shadow2 }) => {
   return (
     <div className="team__gallery gallery">
-      {!isBanner && testimonials.map(person =>
-       <img
+      {testimonials.map(person =>
+        <img
           key={person.name}
           className={classNames({
             gallery__image: true,
@@ -22,7 +22,7 @@ export const Gallery = ({ testimonials, main, shadow1, shadow2, isBanner }) => {
       )}
     </div>
   );
-}
+};
 
 Gallery.propTypes = {
   testimonials: PropTypes.arrayOf(
@@ -32,5 +32,4 @@ Gallery.propTypes = {
   shadow1: PropTypes.number.isRequired,
   shadow2: PropTypes.number.isRequired
 }
-
 

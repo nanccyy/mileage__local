@@ -25,9 +25,14 @@
 
   &__item {
     margin: 0 6px;
+    transition: all 0.5s;
 
     &_margin {
       margin-right: 15px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
     }
   }
 
@@ -40,6 +45,10 @@
     color: #777;
     padding: 0 20px;
     transition: all 0.5s;
+
+    &:hover {
+      color: $main-background-color;
+    }
   }
 
   &__text {
@@ -69,31 +78,31 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer {
-      &__logo {
-        transform: scale(0.8);
-        padding-top: 30px;
-        padding-bottom: 30px;
-      }
-
-      &__nav {
-        padding-bottom: 30px;
-      }
-
-      &__list {
-        flex-direction: column;
-      }
-
-      &__item {
-        padding-bottom: 10px;
-      }
-
-      &__link {
-        font-size: 12px;
-      }
-
-      &__text {
-        padding-bottom: 30px;
-      }
+  .footer {
+    &__logo {
+      transform: scale(0.8);
+      padding-top: 30px;
+      padding-bottom: 30px;
     }
+
+    &__nav {
+      padding-bottom: 30px;
+    }
+
+    &__list {
+      flex-direction: column;
+    }
+
+    &__item {
+      padding-bottom: 10px;
+    }
+
+    &__link {
+      font-size: 12px;
+    }
+
+    &__text {
+      padding-bottom: 30px;
+    }
+  }
 }

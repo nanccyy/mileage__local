@@ -59,22 +59,30 @@
     height: 21px;
     width: 21px;
 
+    & > * {
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+
     &_active {
       background-image: url(../../images/point_green_border.svg);
+      background-position: center;
+      background-repeat: no-repeat;
     }
 
     & > * {
-      width: 12.65px;
-      height: 12.65px;
+      width: 10.5px;
+      height: 10.5px;
       background-color: $main-background-color;
       border-radius: 50%;
     }
+
     & > .active {
       background-color: $highlight-color;
     }
   }
 }
-
 
 @media screen and (max-width: 1600px) {
   .slider {

@@ -29,12 +29,13 @@ const Header = ({ isBanner, isSmallScreen, scrolled }) => {
             isDarkFont={isDarkFont}
             open={open}
             setOpen={setOpen}
+            isBanner={isBanner}
           />
         </section>
       </header>
     </>
   )
-};
+}
 
 export default Header;
 
@@ -43,6 +44,3 @@ Header.propTypes = {
   isSmallScreen: PropTypes.bool.isRequired,
   scrolled: PropTypes.bool.isRequired,
 }
-
-
-
