@@ -3,11 +3,11 @@ import classNames from 'classnames';
 import './Gallery.scss';
 import PropTypes from 'prop-types';
 
-export const Gallery = ({ testimonials, main, shadow1, shadow2 }) => {
+export const Gallery = ({ testimonials, main, shadow1, shadow2, isBanner }) => {
   return (
     <div className="team__gallery gallery">
-      {testimonials.map(person =>
-        <img
+      {!isBanner && testimonials.map(person =>
+       <img
           key={person.name}
           className={classNames({
             gallery__image: true,

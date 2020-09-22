@@ -42,7 +42,7 @@ function App() {
       }
       <Banner setIsBanner={setIsBanner} isBanner={isBanner}/>
       <Services />
-      <Team />
+      <Team isBanner={isBanner}/>
       <Footer setIsFooter={setIsFooter} />
     </div>
   );

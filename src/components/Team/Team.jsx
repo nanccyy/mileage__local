@@ -6,7 +6,7 @@ import { Testimonials } from './Testimonials/Testimonials';
 
 const lastIndex = testimonials.length;
 
-export const Team = () => {
+export const Team = ({isBanner}) => {
   const [main, setMain] = useState(1);
   const [shadow1, setShadow1] = useState(2);
   const [shadow2, setShadow2] = useState(3);
@@ -104,6 +104,7 @@ export const Team = () => {
             main={main}
             shadow1={shadow1}
             shadow2={shadow2}
+            isBanner={isBanner}
           />
         </div>
 
