@@ -21,7 +21,7 @@ const videoList = [{
   name: "video2.mp4",
 }]
 
-const Banner = ({ setIsBanner}) => {
+const Banner = ({ setIsBanner }) => {
   const [currentVideo, setCurrentVideo] = useState(1);
   const sectionRef = useRef(null);
 
@@ -62,6 +62,7 @@ const Banner = ({ setIsBanner}) => {
     <>
       <div className="banner" id="home" ref={sectionRef}>
         <div className="banner__innerWrapper" >
+
           <video
             autoPlay
             loop
@@ -81,7 +82,7 @@ const Banner = ({ setIsBanner}) => {
             autoPlay
             loop
             muted
-            preload="auto"
+            preload="none"
             className={classNames({
               banner__video: true,
               banner__video_active: currentVideo === 2
@@ -96,7 +97,7 @@ const Banner = ({ setIsBanner}) => {
             autoPlay
             loop
             muted
-            preload="auto"
+            preload="none"
             className={classNames({
               banner__video: true,
               banner__video_active: currentVideo === 3
